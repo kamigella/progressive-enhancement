@@ -1,0 +1,130 @@
+p{
+    font-family: serif ;
+    color: #2f4f4f ;
+    font-size: 20px ;
+    line-height: 26pt;
+}
+
+/* unvisited link */
+a:link{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* visited link, mouse over link */
+a:visited, a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f08e2647;
+    background-image: url('https://img.freepik.com/photos-gratuite/epis-ble-se-bouchent-fond-beige-plante-cerealiere-naturelle-concept-temps-recolte-mise-plat_99432-6423.jpg');
+    background-repeat: no-repeat; 
+    background-position: bottom right;
+    background-size: cover;
+}
+
+blockquote{
+    color: #2f4f4f;
+    font-size: 160%;
+    background-color: lightgrey;
+    border-left-style: solid; 
+    border-left-color: firebrick; 
+    border-left-width: 3px;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+q{
+    font-style: italic;
+}
+
+q.villagers{
+    border-left-style: solid;
+    border-left-color: purple;
+}
+
+q.farmer{
+    border-left-style: solid;
+    border-left-color: orange;
+}
+
+header > h1{
+    color: yellow;
+}
+
+span.good{
+    color: green
+}
+
+span.bad{
+    color: red;
+}
+
+table{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+
+tr:nth-child(even){
+    background-color: grey;
+}
+
+ul{
+    font-family: serif;
+    color: #2f4f4f ;
+    font-size: 20px ;
+}
+
+li:first-child {
+    background-image: url('bien.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    margin-right: 52%;
+}
+
+li:nth-child(2){
+    background-image: url('mal.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    margin-right: 52%;
+}
+
+li:nth-child(3){
+    background-image: url('chat.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    margin-right: 52%;
+}
+
+header > p:first-child {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
